@@ -1,0 +1,10 @@
+[project]
+name = "mkdocs-service-plugin"
+version = "0.1.0"
+
+dependencies = [
+    "mkdocs>=1.6"
+]
+
+[project.entry-points."mkdocs.plugins"]
+service = "core.plugin:ServicePlugin"
